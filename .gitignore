@@ -1,0 +1,65 @@
+# ============================================
+# PYTHON / FASTAPI
+# ============================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+.env.*
+.env
+backend/.venvScriptsactivate/
+backend/pyvenv.cfg
+backend/Lib/
+backend/Scripts/
+backend/pyvenv.cfg
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
+pytest_cache/
+.cache/
+
+# ============================================
+# NODE / REACT
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+dist/
+build/
+*.tsbuildinfo
+
+# React environment files
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# ============================================
+# DOCKER
+# ============================================
+docker-compose.override.yml
+.docker/
+*.pid
+
+# ============================================
+# DATABASE / MYSQL
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+mysql_data/
+db_data/
