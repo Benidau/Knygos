@@ -51,9 +51,6 @@ pip install -r requirements.txt
 
 
 
-Paleisti docker compose up -d
-
-
 Serverio paleidimas
 Kai virtuali aplinka aktyvuota, esate backend (cd backend) serveris paleidžiamas komanda:
       uvicorn app.main:app --reload
